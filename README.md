@@ -41,3 +41,8 @@
 
 ### course6(Go语言字典)
 
+- 字典创建（create.go）
+
+- 字典读写（rw.go）
+
+- 字典遍历（travel.go）
