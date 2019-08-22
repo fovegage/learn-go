@@ -38,3 +38,6 @@
 - 进行切片（slice.go）
 
 - 切片扩容（append.go）
+
+### course6(Go语言字典)
+
