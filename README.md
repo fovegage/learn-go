@@ -17,3 +17,24 @@
 - for循环（for.go）
 - if分支（if.go）
 - switch(switch.go)
+
+#### course4
+
+- 数组创建方法（array.go）
+- 数组copy(assign.go)
+- 数组遍历（travel.go）
+- 数组赋值（visit.go）
+
+### course5
+
+- 切片创建（create.go）
+
+- 切片赋值（assign.go）
+
+- 切片拷贝（copy.go）
+
+- 数值转切片（convert.go）
+
+- 进行切片（slice.go）
+
+- 切片扩容（append.go）
