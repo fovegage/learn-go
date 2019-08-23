@@ -55,3 +55,31 @@
 - 字典读写（rw.go）
 
 - 字典遍历（travel.go）
+
+### course7(Go语言字符串)
+
+- 字节和字符串（byte.go）
+
+- 字节与字符串互转（convert.go）
+
+- 字符串内存表示（memory.go）
+
+- 字符串切片操作（slice.go）
+
+- 字符串遍历操作（travel.go）
+
+### course8(Go语言结构体)
+
+- 结构体创建（create.go）
+
+- 结构体方法（method.go）
+
+- 结构体拷贝（copy.go）
+
+- 结构体参数传递（param.go）
+
+- 结构体内存占用（sizeof.go）
+
+- 结构体嵌套（struct.go）
+
+- 数组和切片结构体（as.go）
