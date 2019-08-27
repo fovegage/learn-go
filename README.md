@@ -83,3 +83,27 @@
 - 结构体嵌套（struct.go）
 
 - 数组和切片结构体（as.go）
+
+### course9(Go语言接口)
+
+- 接口变量赋值（assign.go）
+
+- 接口和结构体关联（define.go）
+
+- 接口内部存储（detail.go）
+
+- 利用接口实现多态（duo.go）
+
+- 接口的实现形式（extend.go）
+
+- 空接口（nullinterface.go）
+
+### course10(Go语言错误和异常)
+
+- 异常捕捉（catch.go）
+
+- 多重defer(defer.go)
+
+- 错误生成（error.go）
+
+- 错误处理（handle.go）
