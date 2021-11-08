@@ -18,5 +18,3 @@ type fruit interface {
 //	eat()
 //	smell()
 //}
-
-

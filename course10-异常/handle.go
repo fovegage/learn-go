@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var f, err = os.Open("E:\\go\\course10\\error.go")
+	var f, err = os.Open("E:\\go\\course10-异常\\error.go")
 	if err != nil {
 		println(err.Error())
 		return
@@ -24,7 +24,7 @@ func main() {
 		if n > 0 {
 			content = append(content, buf[:n]...)
 		}
-		if err != nil{
+		if err != nil {
 			break
 		}
 		fmt.Println(string(content))

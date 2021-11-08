@@ -38,7 +38,7 @@ func main() {
 	// 定义多态
 	// 实现一个结构体调用多个方法
 	var a = Fruit{"apple", Apple{}}
-	var b  = Fruit{name:"banana", Fruitable:Banana{}}
+	var b = Fruit{name: "banana", Fruitable: Banana{}}
 	a.want()
 	b.want()
 }

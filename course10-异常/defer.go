@@ -8,7 +8,7 @@ import (
 // 当多个defer出现的时候，defer执行顺序是和书写顺序相反的
 func main() {
 	f1, err := os.Open("catch.go")
-	if err != nil{
+	if err != nil {
 		fmt.Println("file1 is not exist")
 	}
 	defer func() {
@@ -17,7 +17,7 @@ func main() {
 	}()
 
 	f2, err := os.Open("error.go")
-	if err != nil{
+	if err != nil {
 		fmt.Println("file2 is not exist")
 	}
 	defer func() {

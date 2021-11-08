@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 )
+
 var Err = fmt.Errorf("must >= 0")
 
-func test(num int ) int  {
+func test(num int) int {
 	// 栈捕捉
-	if num <0{
+	if num < 0 {
 		panic(Err)
 	}
 	return 1
@@ -15,7 +16,7 @@ func test(num int ) int  {
 func main() {
 	// 可以不输出栈异常信息
 	defer func() {
-		if err :=recover(); err != nil{
+		if err := recover(); err != nil {
 			fmt.Println(err)
 		}
 	}()
