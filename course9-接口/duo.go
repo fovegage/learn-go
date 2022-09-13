@@ -21,10 +21,10 @@ func (f Fruit) want() {
 	f.eat()
 }
 
-type Apple struct {
+type Apple1 struct {
 }
 
-func (a Apple) eat() {
+func (a Apple1) eat() {
 	fmt.Println("apple")
 }
 

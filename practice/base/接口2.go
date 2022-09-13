@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 //定义一个鸭子接口
-//Go 接口是一组方法的集合，可以理解为抽象的类型。它提供了一种非侵入式的接口。任何类型，只要实现了该接口中方法集，那么就属于这个类型。
+//Go 接口是一组方法的集合，可以理解为抽象的类型。它提供了一种非侵入式的接口。
+//任何类型，只要实现了该接口中方法集，那么就属于这个类型。
 type Duck interface {
 	Gaga()
 }
@@ -11,13 +12,13 @@ type Duck interface {
 //假设现在有一个可达鸭类型
 type PsyDuck struct{}
 
+//假设现在有一个唐老鸭类型
+type DonaldDuck struct{}
+
 //可达鸭声明方法-满足鸭子会嘎嘎叫的特性
 func (pd PsyDuck) Gaga() {
 	fmt.Println("this is PsyDuck")
 }
-
-//假设现在有一个唐老鸭类型
-type DonaldDuck struct{}
 
 //唐老鸭声明方法-满足鸭子会嘎嘎叫的特性
 func (dd DonaldDuck) Gaga() {

@@ -21,7 +21,9 @@ func (q *Queue) Print() {
 	fmt.Println(*q)
 }
 func main() {
-	q := Queue{1}
+	// 赋值
+	//
+	q := Queue{1, 2, 3}
 	q.Push(2)
 	q.Print()
 	q.Pop()

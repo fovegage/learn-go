@@ -11,7 +11,13 @@ type Books struct {
 }
 
 func (book Books) print() {
+	book.title = "test modify"
 	fmt.Println(book)
+}
+
+func (book Books) print_return() Books {
+	book.title = "return"
+	return book
 }
 
 //
@@ -35,4 +41,11 @@ func main() {
 	python.print()
 	// 引用传递
 	python.printByRef()
+
+	//
+	println(python.print_return().title)
+
+	// 这个值传递 没有修改  形参是对原始参数的复制
+	//
+	println(python.title)
 }
