@@ -1,5 +1,10 @@
 ### Go语言学习笔记
 
+```
+go env -w GO111MODULE=on
+go mod init study
+```
+
 #### course1(Hello World)
 
 - GO语言基础说明
