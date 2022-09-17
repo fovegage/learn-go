@@ -29,5 +29,6 @@ func main() {
 	// 接口实现
 
 	c := new(Child)
+	// 向sleep传入实现类
 	c.sleep(c)
 }
