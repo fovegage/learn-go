@@ -112,3 +112,7 @@ go mod init study
 - 错误生成（error.go）
 
 - 错误处理（handle.go）
+
+### 资料
+
+- [Go语言设计与实现](https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-make-and-new/)

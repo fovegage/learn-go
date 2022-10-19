@@ -44,6 +44,7 @@ Loop:
 }
 
 func main() {
+	// https://blog.csdn.net/itbsl/article/details/73380537
 	//gotoLabel1()
 	gotoLabel2()
 	//breakLabel()
