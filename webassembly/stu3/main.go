@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"strconv"
 	"syscall/js"
 )
@@ -24,6 +25,9 @@ func fibFunc(this js.Value, args []js.Value) interface{} {
 	if num, err := strconv.Atoi(v.String()); err == nil {
 		// 设置html
 		ansEle.Set("innerHTML", js.ValueOf(fib(num)))
+		// todo:
+		log.Printf("test 1111")
+
 	}
 	return nil
 }

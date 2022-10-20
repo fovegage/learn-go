@@ -7,8 +7,7 @@ import (
 	"io/ioutil"
 )
 
-func main() {
-
+func valid() {
 	html, _ := ioutil.ReadFile("test.html")
 	//println(string(html))
 	// body > script:nth-child(3)
@@ -25,6 +24,22 @@ func main() {
 		//selection.Find
 
 	})
+
+}
+
+func json() {
+	html, _ := ioutil.ReadFile("test.html")
+	//println(string(html))
+	//mat := regexp.MustCompile(`"actionModule":(.*?);`)
+	//res := mat.FindSubmatch(html)
+	//println(len(res))
+	dom, _ := goquery.NewDocumentFromReader(bytes.NewReader(html))
+	res := dom.Find(`meta[property="og:title"]`)
+	println(res.First().Attr("content"))
+}
+
+func main() {
+	json()
 
 	//buf := new(bytes.Buffer)
 	//buf.ReadFrom(bytes.NewReader(html))
