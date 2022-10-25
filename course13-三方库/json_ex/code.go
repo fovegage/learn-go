@@ -28,14 +28,21 @@ func valid() {
 }
 
 func json() {
-	html, _ := ioutil.ReadFile("test.html")
-	//println(string(html))
+	html, _ := ioutil.ReadFile("brumate.html")
+	println(string(html))
 	//mat := regexp.MustCompile(`"actionModule":(.*?);`)
 	//res := mat.FindSubmatch(html)
 	//println(len(res))
 	dom, _ := goquery.NewDocumentFromReader(bytes.NewReader(html))
-	res := dom.Find(`meta[property="og:title"]`)
-	println(res.First().Attr("content"))
+	//println(dom.Html())
+	//res := dom.Find(`meta[property="og:title"]`)
+	res := dom.Find(`script`)
+	//res := dom.Find(`script[id="__NEXT_DATA__"]`)
+	//println(res.First().Attr("content"))
+	//println(res.Text())
+	res.Each(func(i int, selection *goquery.Selection) {
+		println(selection.Text())
+	})
 }
 
 func main() {

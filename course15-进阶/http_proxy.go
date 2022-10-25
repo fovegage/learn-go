@@ -34,6 +34,7 @@ func c15ProxyT1() {
 		println(net.ParseIP(string(data)))
 	}
 }
+
 func main() {
 	c15ProxyT1()
 }
