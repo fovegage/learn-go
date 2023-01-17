@@ -16,8 +16,11 @@ require (
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/linkeddata/gojsonld v0.0.0-20170418210642-4f5db6791326 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/rychipman/easylex v0.0.0-20160129204217-49ee7767142f // indirect
 	github.com/shurcooL/go v0.0.0-20200502201357-93f07166e636 // indirect
 	github.com/shurcooL/go-goon v1.0.0 // indirect
