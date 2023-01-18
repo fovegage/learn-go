@@ -16,6 +16,7 @@ func (_ User) Say(name string, num int) (string, string) {
 }
 
 func main() {
+	// https://learnku.com/articles/65666
 	println("start")
 	user := User{Name: "张三", Age: 10}
 	res := reflect.ValueOf(user).MethodByName("Say").Call([]reflect.Value{reflect.ValueOf("该说话了"), reflect.ValueOf(1)})
