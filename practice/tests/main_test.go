@@ -1,4 +1,4 @@
-package 测试
+package main
 
 // 需要符合  xx_test 才可以被识别到
 

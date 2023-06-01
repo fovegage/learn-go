@@ -1,8 +1,8 @@
 package main
 
 import (
-	"../pkg/tree"
 	"fmt"
+	"study/practice/pkg/tree"
 )
 
 // 只有大写开头的才可以 被引入

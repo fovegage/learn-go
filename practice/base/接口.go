@@ -1,8 +1,8 @@
 package main
 
 import (
-	"../pkg/mock"
 	"fmt"
+	"study/practice/pkg/mock"
 )
 
 type Retriever interface {
