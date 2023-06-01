@@ -1,4 +1,4 @@
-package main
+package course13
 
 /*
 golang 都是值传递，指针也是值传递（解引用）
