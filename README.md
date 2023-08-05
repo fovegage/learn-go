@@ -121,7 +121,7 @@ go mod init study
 
 ### course14(管道)
 
-### course15(扩展)
+### course15(内置库)
 
 ### course16(三方库)
 
