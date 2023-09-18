@@ -125,6 +125,8 @@ go mod init study
 
 ### course16(三方库)
 
+### course17(设计模式)
+
 ### 资料
 
 - [Go语言设计与实现](https://draveness.me/golang/docs/part2-foundation/ch05-keyword/golang-make-and-new/)
